@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies Search</title>
+    <link rel="stylesheet" href="style.css">
+    <title>IMDB-CLONE</title>
+
+
+    <!-- ADDING FONT AWESOME ICONS LINK  -->
+    <script src="https://kit.fontawesome.com/9c59addb12.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <div class="main-div">
+        <div class="inner-div">
+            <div>
+
+                <div class="search-bar">
+                    <!-- imdb logo hree adding  -->
+                    <img src="imdbimg.jfif" class="imdb-img">
+
+                    <!-- this is the input tag , when user type it will fetch results -->
+                    <input type="text" id="search" class="inner-button" placeholder="Search Movie Here........">
+
+
+                    <div id="fav-movie">
+                        <a href="favorite.html"> <i class="fa-solid fa-heart  icon  "></i>
+                            <h4 class="head-fav">fav movie</h4>
+                        </a>
+                    </div>
+
+                </div>
+                <div id="movie-info">
+
+                </div>
+
+                <!-- Here we will appends the suggestions of the Movies -->
+                <p id="match-list" class="hidden-list">
+
+                </p>
+            </div>
+        </div>
+    </div>
+    <script async src="index.js"></script>
+</body>
+
+</html>

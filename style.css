@@ -1,0 +1,134 @@
+
+/*full body tag in html files this is for body  */
+body {
+   background-color:rgba(15, 15, 15, 0.89);
+   }
+   
+   
+   h3 {
+       text-align: center;
+       color: white;
+   }
+   
+   /* imdb logo-image  */
+   .imdb-img {
+       height: 60px;
+       width: 60px;
+       border-radius: 100px;
+       margin-right: 30px;
+       border: 2px solid rgb(244, 138, 0)
+   }
+   
+   /* search bar styling   */
+   .search-bar {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-right: 35px;
+       margin-top: 150px;
+   }
+  
+   
+   /* favorite movies heart icon  */
+   
+   
+   .fa-heart {
+       color: rgb(255, 2, 2);
+       margin-top: 50px;
+  
+   
+   }
+   
+   /* search bar inner styling  */
+   
+   .inner-button {
+       color: black;
+       padding: 15px;
+       height: 25px;
+       width: 500px;
+       border-radius: 20px;
+       box-shadow: 5px 5px 10px rgb(255, 191, 43);
+   }
+   
+   
+   
+   
+   a {
+       text-decoration: none;
+       color: rgb(255, 255, 255);
+       text-align: center;
+   
+   }
+   
+   
+    
+   
+   
+
+
+   /* css for favorite.html  favorite movies page  */
+   
+   #fav-movie {
+       display: flex;
+       justify-content: flex-end;
+       align-items: flex-end;
+       margin-left: 100px;
+   }
+   
+   
+   .card-title {
+       color: white;
+       text-align: justify;
+   }
+   
+   
+   /* common img size for all page   in inner html */
+   .img-mov {
+       height: 250px;
+       width: 250px;
+   }
+   
+   
+   h1 {
+   
+       text-align: center;
+       color: rgb(244, 244, 244);
+   }
+   
+   
+   
+   
+   
+   /* Searched movies list  */
+   .searched-movie {
+       height: 250px;
+       width: 250px;
+       border-radius: 10px;
+   }
+   
+   
+   .container-movie{
+       margin-top: 80px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+   }
+   
+   
+   
+   
+   /* details styling  */
+   
+   
+   .card-title{
+       color: rgba(255, 255, 53, 0.923);
+       font-size: xx-large;
+       letter-spacing: 2px;
+   }
+   .card-text{
+       color: white;
+       border: 2px solid black;
+   box-shadow: 5px 5px 10px rgb(87, 167, 145);
+   
+   
+   }
