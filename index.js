@@ -6,7 +6,7 @@ let access_token = "a6aa9d5a";
 const search = document.getElementById("search");
 const suggestion = document.getElementById("match-list");
 let currentMovie = {};
-//This favMovie() function will add the clicked movie to the favourite list in the local storage... 
+//This favMovie() function will add the clicked movie to the favourite list in local storage 
 function favMovie(e) {
   const first = e.target.name.split(" ");
   const movieName = first[0] + first[1];
@@ -55,10 +55,10 @@ search.addEventListener("input", (e) => {
         <img src="${imgsrc}" class="img-mov" >
         <button class="btn btn-primary" id="${results.length - 1}" name=${JSON.stringify(
       data
-    )} onclick="favMovie(event)">MY Favourite Movies</button>
+    )} onclick="favMovie(event)">Favourite</button>
         <button class="btn btn-primary" id="${
           results.length - 1
-        }" onclick=movieDetails(event)>Movie Details</button>
+        }" onclick=movieDetails(event)>Details</button>
       </div>`;
 
    
