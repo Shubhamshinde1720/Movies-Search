@@ -19,11 +19,11 @@ function renderMovie() {
     <div class="card-body">
     <h5 class="card-title">${avatar}</h5>
     <img src="${imgsrc}"  class="img-mov"  >
-    <button class="btn btn-primary" id="unfav">Unfavorite</button>
+    <button class="btn btn-primary" id="unfav">Unfavourite</button>
   </div>
   </li>
   <ul>`;
-// here is the function for removing the movie from the favorite list
+//Here is the function for removing the movie from the favorite list
       let Unfavouritelist = document.querySelectorAll("#unfav");
       Unfavouritelist.forEach((unfav) => {
         unfav.addEventListener("click", function () {
