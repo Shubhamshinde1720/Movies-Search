@@ -1,16 +1,12 @@
 console.log("hello");
-//Started javascript for index.html page...
-
 // fetch(`http://www.omdbapi.com/?t=${e.target.value}&apikey=${access_token}`)
-//token access by following id
+
 let access_token = "a6aa9d5a";
 // const btn = document.getElementById("btn");
 const search = document.getElementById("search");
 const suggestion = document.getElementById("match-list");
 let currentMovie = {};
-
-
-// This favMovie function adds the clicked movie to the favorite Movies list in local storage....... 
+//This favMovie() function will add the clicked movie to the favourite list in the local storage... 
 function favMovie(e) {
   const first = e.target.name.split(" ");
   const movieName = first[0] + first[1];
@@ -27,24 +23,25 @@ function favMovie(e) {
   }
 }
 
-//add an event for movie details.....
 function movieDetails(event) {
   let results = JSON.parse(localStorage.getItem("results")) || [];
   let current_movie = results[Number(event.target.id)];
   localStorage.setItem("current_movie", JSON.stringify(current_movie));
   window.location.assign("movie.html");
 }
-
-
-// This fetches the API of words typed by the user when the user enters anything in the search bar...
+//This will fetch the API of words typed by the user whenever it enters the words in the input tag
 search.addEventListener("input", (e) => {
   const fetchApi = async function () {
+    //  await fetch(`https://www.omdbapi.com/?t=${e.target.value}&apikey=${access_token}`)
+    // .then(response => response.json())
+    // .then((data => {
+    //   console.log(data);
+    // data = JSON.parse();
     const response = await fetch(
-      `https://www.omdbapi.com/?t=${e.target.value}&apikey=${access_token}`);
+      `https://www.omdbapi.com/?t=${e.target.value}&apikey=${access_token}`
+    );
     const data = await response.json();
     console.log(data);
-
-
     //  Object.entries(data).forEach(v => {
     let results = JSON.parse(localStorage.getItem("results")) || [];
     results.push(data);
@@ -58,7 +55,7 @@ search.addEventListener("input", (e) => {
         <img src="${imgsrc}" class="img-mov" >
         <button class="btn btn-primary" id="${results.length - 1}" name=${JSON.stringify(
       data
-    )} onclick="favMovie(event)">Add in Favorite</button>
+    )} onclick="favMovie(event)">MY Favourite Movies</button>
         <button class="btn btn-primary" id="${
           results.length - 1
         }" onclick=movieDetails(event)>Movie Details</button>
