@@ -11,3 +11,11 @@ And get this – it doesn't just throw a bunch of information at you. Nope! It o
 But wait, there's more! You can even pick your favorite movies. There's this cute button on the left side of each movie. Just click it, and boom, that movie is marked as your favorite. Why? So next time, you can easily find your special movies without searching all over again.
 
 In a nutshell, this project is like your movie buddy on the web. It shows off how good someone is at using cool internet tools (like APIs) and making things work smoothly using JavaScript. It's like a little adventure in web development, making your movie searches and favorite picks a breeze!
+
+
+# Key Features
+1  Search movies by name.
+2  Auto suggestions on pressed keyword.
+3  Save favorite movies for future use.
+5  Read movie details by clicking the details button.
+4  Works seamlessly on both mobile and desktop devices.
