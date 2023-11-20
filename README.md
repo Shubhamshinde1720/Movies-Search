@@ -25,21 +25,22 @@ These instructions will get you a copy of the project up and running on your loc
 A web browser (e.g. Microsoft Edge, Google Chrome, Firefox, Safari)
 A Good internet connection
 A code editor (e.g. VS Code)
+
 Installing
 Clone or download the repository to your local machine
 Open the project in your code editor
 Open the index.html file in your web browser to run the app
 
 
-# Built With
-HTML
-CSS
-JavaScript
+# Used Technologies
+HTML, 
+CSS, 
+JavaScript.
 
 
 # Demo
 Check out the live demo of the application by clicking the below link.
 https://shubhamshinde1720.github.io/IMDB-CLONE/
 
-Authors
+# Author
 @shubhamshinde1720
