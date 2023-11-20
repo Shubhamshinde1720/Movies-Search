@@ -14,8 +14,8 @@ In a nutshell, this project is like your movie buddy on the web. It shows off ho
 
 
 # Key Features
-1  Search movies by name.
-2  Auto suggestions on pressed keyword.
+1  Search movies by name.      
+2  Auto suggestions on pressed keyword.  
 3  Save favorite movies for future use.
 5  Read movie details by clicking the details button.
 4  Works seamlessly on both mobile and desktop devices.
