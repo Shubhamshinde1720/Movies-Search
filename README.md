@@ -14,8 +14,32 @@ In a nutshell, this project is like your movie buddy on the web. It shows off ho
 
 
 # Key Features
-1  Search movies by name.      
-2  Auto suggestions on pressed keyword.  
-3  Save favorite movies for future use.
-5  Read movie details by clicking the details button.
-4  Works seamlessly on both mobile and desktop devices.
+Search movies by name
+Auto suggestions on pressed keyword
+Save favorite movies for future use
+Works seamlessly on both mobile and desktop devices
+Getting Started
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+# Prerequisites
+A web browser (e.g. Microsoft Edge, Google Chrome, Firefox, Safari)
+A Good internet connection
+A code editor (e.g. VS Code)
+Installing
+Clone or download the repository to your local machine
+Open the project in your code editor
+Open the index.html file in your web browser to run the app
+
+
+# Built With
+HTML
+CSS
+JavaScript
+
+
+# Demo
+Check out the live demo of the application by clicking the below link.
+https://shubhamshinde1720.github.io/IMDB-CLONE/
+
+Authors
+@shubhamshinde1720
