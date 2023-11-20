@@ -1,5 +1,5 @@
 # IMDB-CLONE
-Coding Ninjas frontend skill test-2.
+Coding Ninjas frontend skill test-2
 
 
 Hey there! So, imagine you're on the internet, and you want to find information about movies easily. Well, this project is like a magic tool for that! It uses a cool thing called vanilla JavaScript to make everything smooth and easy for you.
