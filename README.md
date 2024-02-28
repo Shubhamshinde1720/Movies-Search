@@ -1,4 +1,4 @@
-# IMDB-CLONE
+# Movies-Search
 Coding Ninjas frontend skill test-2
 
 
@@ -40,7 +40,7 @@ JavaScript.
 
 # Demo
 Check out the live demo of the application by clicking the below link.
-https://shubhamshinde1720.github.io/IMDB-CLONE/
+[https://shubhamshinde1720.github.io/IMDB-CLONE/](https://shubhamshinde1720.github.io/Movies-Search/)https://shubhamshinde1720.github.io/Movies-Search/
 
 # Author
 @shubhamshinde1720
